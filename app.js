@@ -3,6 +3,7 @@ import connectDB from './database/database.js';
 import dotenv from "dotenv";    
 import todoRouters from './routes/routes.js';
 
+
 dotenv.config();
 
 console.log("Mongo URI:", process.env.MONGODB_URI);
@@ -21,4 +22,4 @@ app.listen(PORT, () => {
     console.log(`Server running on port http://localhost:${PORT}`);
 });
 
-        
+        export default app;

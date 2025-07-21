@@ -1,5 +1,5 @@
-import {add, multiply, divide} from '../../math.js';
-import mathModule from '../../math.js';
+import {add, multiply, divide} from '../math.js';
+import mathModule from '../math.js';
 import {describe, it} from 'mocha';
 import {expect} from 'chai';
 
